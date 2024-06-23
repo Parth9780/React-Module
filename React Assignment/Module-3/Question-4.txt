@@ -1,0 +1,17 @@
+(4). What is CLI command In React Js?
+
+In React.js, CLI (Command Line Interface) commands are used to create, build, and manage React projects. The most commonly used CLI command in React.js is the `create-react-app` command, which is a command-line tool for creating React applications.
+
+1. `create-react-app` <project-name>: This command is used to create a new React application with a preconfigured build setup. It creates a new directory with the specified project name and sets up the necessary files and folders for a React application.
+
+2. `npm start`: This command is used to start the development server for a React application. It runs the application on a local development server and allows you to view the application in a web browser.
+
+3. `npm run build`: This command is used to build a production-ready version of a React application. It creates a `build` directory with optimized and minified files that can be deployed to a production environment.
+
+4. `npm test`: This command is used to run the test suite for a React application. It runs all the tests in the src directory and provides a report of any failed tests.
+
+5. `npm install` <package-name>: This command is used to install a new package in a React application. It downloads the specified package and its dependencies and adds them to the `package.json` file.
+
+6. `npm uninstall` <package-name>: This command is used to uninstall a package from a React application. It removes the specified package and its dependencies from the node_modules directory and updates the `package.json` file.
+
+7. `npm update`: This command is used to update all the packages in a React application to their latest versions. It updates the `package.json` file and the node_modules directory with the latest versions of the installed packages.

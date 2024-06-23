@@ -1,0 +1,13 @@
+(3). What is Role of Node Js in react Js?
+
+Node.js is a JavaScript runtime environment that allows you to run JavaScript code outside of a web browser. In the context of React JS, Node.js is often used as a server-side technology to build web applications.
+
+1. Server-side rendering: Node.js can be used to render React components on the server-side, which can improve the performance and SEO of your application.
+
+2. API development: Node.js can be used to build RESTful APIs that can be consumed by your React application.
+
+3. Build tools: Node.js provides a wide range of build tools (e.g., Webpack, Babel, Gulp) that can be used to build, bundle, and optimize your React application.
+
+4. Package management: Node.js includes NPM (Node Package Manager), which is the default package manager for React applications.
+
+5. Development environment: Node.js provides a development environment for React developers, allowing them to run and test their applications locally.

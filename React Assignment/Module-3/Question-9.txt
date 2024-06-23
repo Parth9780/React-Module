@@ -1,0 +1,65 @@
+(9). How to change in components of React Js?
+
+
+In React, components are the building blocks of your application's UI. To change a component, you can modify its code in the corresponding JavaScript file.
+
+Step 1: Identify the component
+
+    1.Open your React project in a code editor or IDE.
+    2.Identify the component you want to change. Components are typically defined in separate JavaScript files, e.g., Header.js, Footer.js, Button.js, etc.
+    3.Locate the file that contains the component you want to modify.
+
+Step 2: Open the component file
+
+    1.Open the JavaScript file that contains the component you want to change.
+    2.Make sure you have the correct file open by checking the file name and the component's name.
+
+Step 3: Modify the component code
+
+    1.Make the necessary changes to the component's code. This can include:
+        -Updating the component's props or state.
+        -Changing the component's rendering logic.
+        -Adding or removing child components.
+        -Updating the component's styles or CSS classes.
+    2.Use React's JSX syntax to write the component's code.
+
+Step 4: Save the changes
+
+    1.Save the changes to the component file.
+    2.Make sure to save the file with the same name and in the same location as before.
+
+Step 5: Refresh the application
+
+    1.Go back to your web browser and refresh the page.
+    2.The changes you made to the component should be reflected in the application.
+
+
+Example: Changing a component's text
+
+    // Header.js (before)
+    import React from 'react';
+
+    const Header = () => {
+    return (
+        <header>
+        <h1>Welcome to my app!</h1>
+        </header>
+    );
+    };
+
+    export default Header;
+
+    To change the title text, you would modify the Header component as follows:
+
+    // Header.js (after)
+    import React from 'react';
+
+    const Header = () => {
+    return (
+        <header>
+        <h1>Hello, World!</h1>
+        </header>
+    );
+    };
+
+    export default Header;

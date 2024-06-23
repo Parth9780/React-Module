@@ -1,0 +1,78 @@
+(6). What is Header and Content Components in React Js?
+
+* Header Component:
+
+A Header component is a type of component that is typically used to render the topmost section of a web page or application. It usually contains elements such as:
+
+- Logo
+- Navigation menu
+- Search bar
+- User profile information
+- Breadcrumbs
+
+The Header component is often used to provide a consistent layout and design across multiple pages of an application. It is usually a presentational component, meaning it only renders the UI and does not manage any state or business logic
+
+Example: Header.jsx
+    import React from 'react';
+
+    const Header = () => {
+    return (
+        <header>
+        <nav>
+            <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>My App</h1>
+        </header>
+    );
+    };
+
+    export default Header;
+
+* Content Component:
+
+A Content component is a type of component that is used to render the main content area of a web page or application. It usually contains the primary information or functionality of the page, such as:
+
+- Article text
+- Product information
+- Form inputs
+- Data visualization
+- Interactive elements
+
+The Content component is often used to render dynamic data or interactive elements that are specific to a particular page or route. It can be a presentational component or a container component, depending on the complexity of the content being rendered.
+
+Explain: Content.jsx
+
+    import React from 'react';
+
+    const Content = () => {
+    return (
+        <div>
+        <h2>Welcome to my app!</h2>
+        <p>This is a sample content area.</p>
+        <button onClick={() => console.log('Button clicked!')}>Click me!</button>
+        </div>
+    );
+    };
+
+    export default Content;
+
+--------------------------------------
+
+    import React from 'react';
+    import Header from './Header';
+    import Content from './Content';
+
+    const App = () => {
+    return (
+        <div>
+        <Header />
+        <Content />
+        </div>
+    );
+    };
+
+    export default App;

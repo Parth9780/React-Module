@@ -1,0 +1,11 @@
+(1).  What is React Js?
+
+React JS is a free and open-source front-end JavaScript library for building user interfaces or UI components. It's used for developing complex, reusable UI components. It's ideal for building single-page applications, mobile applications, and desktop applications.
+
+React was developed by Facebook (now Meta) and is now maintained by Facebook and a community of developers. It was first released in 2013 and has since become one of the most popular JavaScript libraries for building user interfaces.
+
+1. Virtual DOM: React uses a virtual DOM (a lightweight in-memory representation of the real DOM) to optimize rendering and improve performance.
+
+2. JSX: React uses JSX, a syntax extension for JavaScript that allows you to write HTML-like code in your JavaScript files.
+
+3. React Router: A popular routing library for React applications.
